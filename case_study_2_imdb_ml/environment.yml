@@ -1,0 +1,23 @@
+name: ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - nltk
+  - jupyter
+  - jupyterlab
+  - pip:
+    - openai>=1.0.0
+    - langchain>=0.1.0
+    - langchain-openai>=0.0.5
+    - langchain-community>=0.0.20
+    - faiss-cpu>=1.7.0
+    - gradio>=4.0.0
+    - inflect>=7.0.0
+    - python-dotenv>=1.0.0

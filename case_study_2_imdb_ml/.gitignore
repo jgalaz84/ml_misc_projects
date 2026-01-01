@@ -1,0 +1,46 @@
+# API Keys and Credentials
+.openai_env
+*.env
+.env
+*.key
+credentials.json
+
+# Personal VSCode Settings (contains local paths to API keys)
+.vscode/
+
+# Chat History and User Data (privacy)
+movie_bot/
+chat_history.json
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code
+.claude/
+
+# Gradio
+.gradio/
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
